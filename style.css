@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.2s ease-in-out;
+}
+
+.main-container{
+    height: 110vh;
+    width: 100%;
+    position: relative;
+    background-image: url("https://www.texas.gov/static/003ed6a91a21e3076325a58c0fd8ed73/c1b63/Selected-Spring-Image-2024-Flower%2528Re-crop%2529_0.png");
+    background-position: center;
+    background-size: cover;
+    padding-inline: 100px;
+    /* background-color: black; */
+}
+.navigation{
+    background-color: white;
+    /* height: 60px; */
+    width: 85%;
+    border-radius: 3px;
+    position:absolute;
+    top: 15px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navigation .left-nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.left-nav span a{
+    font-size: 17px;
+    color: blue;
+    text-decoration: none;
+    font-weight: 400;
+}
+.left-nav a{
+    font-size: 15px;
+    color: navy;
+    font-weight: 700;
+    text-decoration: none;
+}
+.navigation .right-nav{
+    width: 15%;
+    height: auto;
+    display: flex;
+
+}
+.right-nav .btn-1{
+    padding-block: 10px;
+    padding-inline: 20px;
+    font-size: 16px;
+    background-color: rgb(238, 245, 248);
+    color: blue;
+    border: none;
+    border-radius: 26px;
+    margin-right: 20px;
+}
+.right-nav .btn-1 i{
+    margin-right: 10px;
+}
+.right-nav .btn-2{
+    height: 40px;
+    width: 40px;
+    border-radius:80px;
+    background-color: navy;
+    border: none;
+}
+
+/* navigation */
+
+.main-container .box{
+    background-color: rgb(53, 53, 251);
+    height: max-content;
+    width: 43%;
+    position: absolute;
+    top: 150px;
+    padding-inline: 30px;
+    padding-block: 40px;
+    border-radius:7px ;
+}
+.box h1{
+    color: white;
+    font-size: 70px;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+.box h4{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 80px;
+    font-weight: 300;
+}
+.box p{
+    color: white;
+    font-weight: 300;
+}
+
+/* main-container */
+
+.container-2{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 40px;
+    padding-block: 90px;
+    flex-direction: column;
+
+}
+.container-2 .content-sec{
+    background-color: rgb(245, 252, 252);
+    display: flex;
+    padding: 20px;
+    width: 90%;
+}
+.content-sec .left-sec{
+    width: 50%;
+    height: auto;
+
+}
+.left-sec h1{
+    color: navy;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.left-sec p{
+    font-size: 20.5px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-bottom: 60px;
+    color: rgb(100, 99, 99);
+}
+.left-sec a{
+    color: blue;
+    font-size: 20px;
+}
+.left-sec a:hover{
+    text-decoration: none;
+}
+.content-sec .right-sec{
+    width: 50%;
+    height: auto;
+    padding: 20px;
+}
+.right-sec img{
+    height: 100%;
+    width: 100%;
+}
+
+/* content-sec */
+
+.grid-sec{
+    /* background-color: rgb(25, 172, 172); */
+    display: grid;
+    grid-template-columns:repeat(2, 1fr) ;
+    grid-template-rows: repeat(2, 1fr);
+    width: 90%;
+    height: 180vh;
+    gap: 20px;
+    padding-block: 20px;
+}
+.grid-sec .box{
+    width: 100%;
+    height: auto;
+    padding-inline: 20px;
+    padding-block: 30px;
+    background-color: rgb(245, 252, 252);
+    border-radius: 5px;
+}
+.grid-sec .box h3{
+    font-size: 25px;
+    margin-bottom: 40px;
+
+}
+.grid-sec .box .box-1{
+    color: red;
+}
+.grid-sec .box .box-2{
+    color:green;
+}
+.grid-sec .box .box-3{
+    color: purple;
+}
+.grid-sec .box .box-4{
+    color:rgb(255, 132, 1);
+}
+.grid-sec .box h1{
+    font-size: 50px;
+    font-weight: 40px;
+    color: navy;
+}
+.grid-sec .box p{
+    font-size: 23px;
+    color:rgb(86, 86, 86);
+    margin-bottom: 90px;
+}
+.grid-sec .box a{
+    font-size: 20px;
+    color: blue ;
+    
+}
+.grid-sec .box a:hover{
+    text-decoration: none;
+}
+
+/* container-2 */
+
+.footer-sec{
+    height: auto;
+    width: 100%;
+    background-color:#dcdee1;
+    padding-block: 50px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-sec .link-sec{
+    display: flex;
+    width: 94%;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.link-sec ul{
+    list-style: none;
+}
+.link-sec ul h1{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: rgb(42, 41, 41);
+}
+.link-sec ul li{
+    font-size: 15px;
+    line-height: 35px;
+}
+.link-sec ul li a{
+    color: rgb(42, 41, 41);
+}
+.link-sec ul li a:hover{
+    text-decoration: none;
+}
+.footer-sec hr{
+    width: 87%;
+}
+.footer-sec .para{
+    width: 87%;
+    display: flex;
+    justify-content: space-between;
+    padding-block: 20px;
+}
+.para p{
+    font-size: 13px;
+    color: darkslategrey;
+}
+.para .icons{
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    font-size: 40px;
+}
